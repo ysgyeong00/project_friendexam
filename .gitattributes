@@ -1,0 +1,16 @@
+# Ensure all text files use LF
+* text=auto
+
+# Set specific files to use LF
+*.java text eol=lf
+*.html text eol=lf
+*.sql text eol=lf
+*.sh text eol=lf
+
+# Set batch files to use GRLF
+*.bat text eol=crlf
+
+# Gradle wrapper and properties should use LF
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+*.properties text eol=lf
